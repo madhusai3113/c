@@ -31,6 +31,6 @@ if(mysqli_query($link, $sql)){
 	header("location: create_table.php");
 }
 
-// close connection
+// closing connection
 mysqli_close($link);
 ?>
